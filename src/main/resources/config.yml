@@ -1,0 +1,75 @@
+########################################
+###          Main Settings           ###
+########################################
+
+# The name of protector block items
+protector-block-name: "&5Protector Block"
+
+# The maximum number of regions that protector blocks can create
+max-regions-number: 1000
+
+########################################
+###       Boundaries Defaults        ###
+########################################
+
+# The first Y position of the boundaries of a protector block's protected region
+protector-regions-y1: 400
+
+# The second Y position of the boundaries of a protector block's protected region
+protector-regions-y2: -400
+
+########################################
+###         Disabled Worlds          ###
+########################################
+
+# The worlds where players cannot place their protector blocks at
+disabled-worlds:
+  - example_disabled_world
+
+# The message to be sent to a player each time they try to place their protector block
+# in a world that protector blocks are not allowed to be placed in (a disabled world that
+# can be added from config)
+#
+# To not send any message leave the string empty
+# (This is an empty string: "")
+#
+disabled-world-message: ""
+
+########################################
+###              Flags               ###
+########################################
+
+# The flags that players will be able to modify on their protector block
+flags:
+  - pvp
+  - entry
+  - mob-damage
+
+########################################
+###   Protector Achieving Commands   ###
+########################################
+
+# The namespace for each Achieving Command
+#
+# Example of a namespace in a command:
+# /minecraft:
+# Example of a command using a namespace:
+# /minecraft:give
+# How a namespace should be formatted:
+# "acoolnamespace"
+#
+# WARNING: Be careful not to write a namespace with incorrect syntax, as it can lead
+# to errors or glitches!
+#
+achieving-commands-namespace: "wgprotectorblock"
+
+# This is where you can add your own Protector Block Item Achieving commands that will
+# allow players to get a Protector Block item
+achieving-commands:
+  # An example & default command
+  protect:
+    radius: 30 # The radius of the Protector that the player will get
+    message: "&dYou got a protector block now! Place it to protect your region." # The message that will be shown to a player once Achieving his Protector Block. Leave empty ("") to display no message.
+    delay: 86400 # 1 Day in Seconds delay before being able to run the command again
+    delaymessage: "&4You can't get this Protector Block for another &c%time_left%&4." # The message displayed to a player when they attempt to use the command but cannot due to the active cooldown (delay). Use %time_left% to write the time left for them until they can use the command again. Leave empty ("") to display no message.
+    permission: wgprotectorblock.commands.protect # The permission node that will be assigned to your custom command. It can be anything, but it has to keep on the syntax of any normal permission node on a server

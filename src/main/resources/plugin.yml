@@ -1,0 +1,9 @@
+name: WGProtectorBlock
+description: A plugin which uses WorldGaurd for giving players the ability to protect their territory simply by just putting a Protector Block in the middle of their area that they want to protect.
+main: me.Negai.WGProtectorBlock.Main
+version: 1.0
+author: Negai_ (MaayanM.C)
+api-version: 1.17
+depend:
+  - WorldEdit
+  - WorldGuard

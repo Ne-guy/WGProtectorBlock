@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/Downloads/worldguard-bukkit-7.0.10-dist.jar"/>
+	<classpathentry kind="lib" path="D:/Users/MaayanM.C/Documents/Programming Scripts/Minecraft Java/Bukkit/item-nbt-api-plugin-2.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/Downloads/worldedit-bukkit-7.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Users/MaayanM.C/Documents/Minecraft Servers/Tests/TestServer2 - Paper/plugins/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="D:/Users/MaayanM.C/Documents/Programming Scripts/Minecraft Java/Bukkit/BungeeCord.jar"/>
+	<classpathentry kind="lib" path="D:/Users/MaayanM.C/Documents/Programming Scripts/Minecraft Java/Bukkit/.BuildTools/1.17.1/Spigot/Spigot-API/target/spigot-api-1.17.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/Users/MaayanM.C/Documents/Programming Scripts/Minecraft Java/Bukkit/.BuildTools/1.17.1/Spigot/Spigot-Server/target/spigot-1.17.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
